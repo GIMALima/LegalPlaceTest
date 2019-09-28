@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Form, Input, FormGroup, FormFeedback} from 'reactstrap';
+import { Button, Form, Input} from 'reactstrap';
 import NavbarComp from '../layout/Navbar'
 import Hero from '../layout/Hero'
 import LoginForm from '../layout/LoginForm'

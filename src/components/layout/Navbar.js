@@ -24,7 +24,7 @@ export default class NavbarComp extends Component {
             <header className="fixed">
             <Navbar className="shadow bg-white" color="faded" light expand="md">
                 <NavbarBrand  href="/home">
-                    <img src="#" alt="TODO" />
+                    <img src= "#" alt="TODO" />
                 </NavbarBrand>
                 <NavbarToggler onClick={this.handleToggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>

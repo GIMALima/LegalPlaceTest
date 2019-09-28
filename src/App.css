@@ -65,7 +65,7 @@ button a{
 
 .hero-social-links {
 	position: absolute;
-	right: 39px;
+	right: 30px;
 	top: 200px;
 	z-index: 99;
 }
@@ -186,10 +186,7 @@ ul li {
 	transition: transform .5s ease;
 	margin-bottom: 10px;
 }
-.card:hover {
-	transform: scale(1.1);
-	opacity: 0.8;
-  }
+
 .round-btn-container{
 	text-align: right;
     margin-top: -20%;
@@ -294,7 +291,8 @@ ul li {
 .checkbox-container{
 	text-align: left;
     margin-top: -10px;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
+	color: #fff;
 }
 .isValid{
 	border: green 1px solid;
@@ -360,11 +358,45 @@ ul li {
 	color: #fff;
 }
 
+.customnav{
+	background: #b24966;
+}
 
+.tab-container{
+	margin-top: 60px;
+}
 
+.btn-link{
+	color: #000;
+	text-decoration: none;
+}
+.btn-link:hover{
+	color: #b24966;
+	text-decoration: none;
+}
+.btn-link:active{
+	color: #b24966;
+	text-decoration: none;
+}
+svg{
+	margin-right: 5px;
+}
+.add-form{
+	padding: 50px 100px;
+}
 
-
-
+.toast{
+	max-width: 100%;
+}
+.toast span{
+	font-weight: 900;
+}
+.actions-container{
+	float: right;
+}
+.toast input[type=checkbox]{
+	float: right;
+}
 
 
 

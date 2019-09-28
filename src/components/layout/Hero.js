@@ -7,7 +7,6 @@ import {Row, Col, Jumbotron, Container} from 'reactstrap'
 export default class Hero extends React.Component {
   render() {
     return (
-      
     <section className="hero">
                 <div className="hero-social-links">
                     <NavLink to=""><FaInstagram size="1.5em"/></NavLink>
