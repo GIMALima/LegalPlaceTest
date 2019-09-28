@@ -1,22 +1,410 @@
-.App {
-  text-align: center;
+body{
+	font-family: open,sans-serif;
+	width: 100%;
+}
+p{
+	font-size: 14px;
+	text-align: justify;
+}
+.cont{ 
+	margin: 0 auto;
+}
+.cont .nav-link {
+	margin: auto 10px;
+}
+li img{
+	max-width: 100%;
+}
+.fixed{
+	position: fixed!important;
+	top: 0;
+	left: 0;
+	width: 100%!important;
+	z-index: 9999;
+}
+.hero{
+	position: relative;
+	margin-top: 90px;
+}
+.navbar{
+	padding: .2rem 1rem;
+	position: relative;
+	display: flex;
+	
+}
+.dropdown-item:active{
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link, a{
+	color: #000;
+  	font-size:1.1em;
+}
+.btn-primary{
+	background: #384aeb;
+	border: #384aeb;
+}
+button a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+button a{
+	color: #fff;
+	font-size:1.1em;
+}
+.login{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover,a.nav-link:hover{
+	color: #384aeb;;
+}
+.navbar-light .navbar-nav .active, a.active,.navbar-light .navbar-nav .nav-link.active{
+	color: #384aeb;;
+	border-bottom: 3px solid #384aeb;;
 }
 
-.App-logo {
-  height: 40vmin;
+.hero-social-links {
+	position: absolute;
+	right: 39px;
+	top: 200px;
+	z-index: 99;
+}
+.hero-social-links a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 48px;
+	height: 48px;
+	margin-bottom: 22px;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 50%;
+	background: #384aeb;
+}
+.display-3 {
+	color: #fff;
+	font-size: 6rem;
+}
+.lead, .jumbotron{
+	text-align: center;
+}
+.jumbotron{
+	background-color: transparent;
+	position: absolute;
+	top: 130px;
+	left: 15%;
+	right: 15%;
+    z-index: 99;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-site{
+	border: none;
+	font-size: 14px;
+	font-weight: 400;
+	min-width: 200px;
+	padding: 18px 45px;
+	border-radius: 0;
+	text-transform: uppercase;
+	line-height: 1.4;
+	color: #fff;
+	cursor: pointer;
+}
+.input-site{
+	height: calc(2.5em + .75rem + 2px);
+	border-radius: 0;
 }
 
-.App-link {
-  color: #09d3ac;
+.btn-white{
+	background: #fff;
+	color: #000;
+	margin-left: 20px;
+}
+.lead{
+	margin-top: 30px;
+}
+
+.form{
+    background: #002347;
+    padding: 100px 100px;
+}
+.form h1{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.home-content h1{
+	color: #000;
+	text-align: center;
+}
+.form h6{
+	color: #fff;
+	text-align: center;
+}
+.form-inline .form-control{
+	width: 100%;
+}
+
+ul{
+	list-style-type: none;
+}
+ul li {
+	margin-bottom: 10px;
+}
+.footer{
+	padding-top: 50px;
+	width: 100%;
+}
+.copyright-container{
+	border-top: #fff 1px solid; 
+	width: 100%;
+	margin-top:30px;
+}
+.copyright-container span{
+	font-size: 1.5em;
+}
+.mt-5{
+	margin-top: 1.3rem!important;
+}
+
+.home-content{
+	padding: 60px 50px;
+}
+.collections-container{
+	border-top: #edf0f5 1px solid;
+	width: 100%;
+	padding: 10px 0px;
+	margin-top: 10px;
+}
+
+.card{
+	transition: transform .5s ease;
+	margin-bottom: 10px;
+}
+.card:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
+  }
+.round-btn-container{
+	text-align: right;
+    margin-top: -20%;
+}
+.home-content h1{
+	padding-bottom: 40px;
+}
+.round-btn{
+	background: #384aeb;
+	border: none;
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+.btn-round-shop{
+	margin-right: 10px;
+	
+}
+.price-container{
+	float: left;
+	position: absolute;
+	background: #384aeb;
+	padding: 8px 3px;
+	top: -5px;
+	
+}
+
+.price-container span, .login .log-in:active{
+	color: #fff;
+}
+.card-center{
+	text-align: center;
+}
+
+
+.off-sale-content{
+	background:#f8f9fa!important;
+}
+
+.counter p{
+	text-align: center;
+	font-weight: 700;
+	color: #6d6868;	
+}
+.counter h1, .off-sale-content h1{
+	font-weight: 700;
+}
+.form-container{
+	background: #fff;
+	text-align: center;
+	padding: 30px 60px;
+}
+.btn-social{
+	margin-left: 10px;
+	background: transparent;
+	border: #edf0f5 1px solid;
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.btn-social:hover{
+	background: #edf0f5;
+	border: #edf0f5 1px solid;
+	color: #000;
+}
+.social-media {
+	margin-right: 10px;
+}
+.login-form h1{
+	color:#000;
+	margin-bottom: 30px;
+}
+.login-form input{
+	margin-bottom: 20px;
+}
+.login-form button{
+	width: 100%;
+}
+.btn-forget{
+	color: #384aeb;
+	background: #fff;
+	border: none;
+	float: right;
+}
+.btn-forget:hover{
+	background: #fff;
+	color: #000;
+}
+.return-icon{
+	margin-right: 10px;
+}
+.return{
+	float: left;
+}
+.form-container h6{
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.checkbox-container{
+	text-align: left;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.isValid{
+	border: green 1px solid;
+}
+.notValid{
+	border: red 1px solid;
+}
+.error{
+	color: red;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	float: left;
+}
+.my-container{
+	text-align: center;
+}
+.pagination-container{
+	display: -webkit-inline-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+
+	.hero-social-links{
+		top: 70px;
+		right: 15px;
+	}
+
+	.jumbotron{
+		top: 30px;
+		left: 10%;
+		left: 10%;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+	.hero-social-links {
+		top: 118px;
+	}
+	.jumbotron{
+		top: 30px;
+		left: 10%;
+		left: 10%;
+	}
+	
+}
+@media only screen and (max-width: 767px) {
+
+	.hero-social-links {
+		width: 100%;
+		left: 0;
+		text-align: center;
+		top: 30px;
+	}
+	.hero-social-links a {
+		display: inline-flex;
+		margin-right: 10px;
+		margin-bottom: 0;
+	}
+	.jumbotron{
+		top: 30px;
+		left: 9%;
+		right: 9%
+	}
+	.display-3 {
+		font-size: 3.5rem;
+	}
+	.lead{
+		display:inline-grid;
+		margin-top: 5px;
+	}
+	.jumbotron button{
+		min-width:150px;
+		padding: 10px 20px;
+	}
+	.btn-white{
+		margin-left: 0px;
+		margin-top:10px;
+	}
+	
+	.btn-site{
+		padding: 15px 15px;
+	}
+	.form{
+		text-align: center;
+	}
+	.form input{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
 }
