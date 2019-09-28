@@ -24,7 +24,7 @@ li img{
 }
 .hero{
 	position: relative;
-	margin-top: 90px;
+	margin-top: 60px;
 }
 .navbar{
 	padding: .2rem 1rem;
@@ -40,8 +40,8 @@ li img{
   	font-size:1.1em;
 }
 .btn-primary{
-	background: #384aeb;
-	border: #384aeb;
+	background: #b24966;
+	border: #b24966;
 }
 button a:hover{
 	text-decoration: none;
@@ -56,11 +56,11 @@ button a{
 	margin-top: 10px;
 }
 .navbar-light .navbar-nav .nav-link:hover,a.nav-link:hover{
-	color: #384aeb;;
+	color: #b24966;
 }
 .navbar-light .navbar-nav .active, a.active,.navbar-light .navbar-nav .nav-link.active{
-	color: #384aeb;;
-	border-bottom: 3px solid #384aeb;;
+	color: #b24966;
+	border-bottom: 3px solid #b24966;
 }
 
 .hero-social-links {
@@ -85,7 +85,7 @@ button a{
 	color: #fff;
 	font-size: 13px;
 	border-radius: 50%;
-	background: #384aeb;
+	background: #b24966;
 }
 .display-3 {
 	color: #fff;
@@ -198,7 +198,7 @@ ul li {
 	padding-bottom: 40px;
 }
 .round-btn{
-	background: #384aeb;
+	background: #b24966;
 	border: none;
 	border-radius: 100%;
 	margin-bottom: 10px;
@@ -210,7 +210,7 @@ ul li {
 .price-container{
 	float: left;
 	position: absolute;
-	background: #384aeb;
+	background: #b24966;
 	padding: 8px 3px;
 	top: -5px;
 	
@@ -237,29 +237,32 @@ ul li {
 	font-weight: 700;
 }
 .form-container{
-	background: #fff;
+	background: transparent;
 	text-align: center;
-	padding: 30px 60px;
+	padding: 50px 100px;
 }
 .btn-social{
 	margin-left: 10px;
 	background: transparent;
 	border: #edf0f5 1px solid;
-	color: #000;
+	color: #fff;
 	text-align: center;
 	margin-bottom: 20px;
 }
 .btn-social:hover{
 	background: #edf0f5;
 	border: #edf0f5 1px solid;
-	color: #000;
+	color: #fff;
 }
 .social-media {
 	margin-right: 10px;
 }
 .login-form h1{
-	color:#000;
+	color:#fff;
 	margin-bottom: 30px;
+}
+.form-container a, .form-container h6{
+	color: #fff;
 }
 .login-form input{
 	margin-bottom: 20px;
@@ -268,7 +271,7 @@ ul li {
 	width: 100%;
 }
 .btn-forget{
-	color: #384aeb;
+	color: #b24966;
 	background: #fff;
 	border: none;
 	float: right;
@@ -297,10 +300,10 @@ ul li {
 	border: green 1px solid;
 }
 .notValid{
-	border: red 1px solid;
+	border: blue 1px solid;
 }
 .error{
-	color: red;
+	color: white;
 	margin-top: -20px;
 	margin-bottom: 10px;
 	float: left;
@@ -312,10 +315,50 @@ ul li {
 	display: -webkit-inline-box;
 }
 
+.background1{
+    background: url('./img/background2.JPG');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: #fdfdfd;
+}
 
+.background1 p, .background2 p{
+	font-size: 20px;
+	color:#d4d4d4;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.background1 h1{
+	color: white;
+	padding: 90px 30px;
+}
+.background1 .jumbotron{
+	margin-top: 20%;
+}
 
-
-
+.background2{
+    background: url('./img/background1.JPG');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: #fdfdfd;
+}
+.background2 p{
+	color: white;
+}
+.btn-outline-secondary{
+	color: #fff;
+    border-color: #fff;
+}
+.btn-outline-secondary:hover{
+	background-color: #fdfdfd;
+    color: #000;
+}
+.background2 h1{
+	color: #fff;
+}
 
 
 
